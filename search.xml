@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我的算法题解集合</title>
+    <url>/2025/11/16/%E6%88%91%E7%9A%84%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<h1>算法题解集合</h1>
+<h2 id="题单">题单</h2>
+<p><img src="/images/blog-posts/problem-list.png" alt="题单图示"></p>
+<h2 id="1-苹果采购问题">1. 苹果采购问题</h2>
+<p><img src="/images/blog-posts/apple-purchase.png" alt="苹果采购问题示意图"></p>
+<p>这是一个关于苹果采购的算法问题…</p>
+<h2 id="2-三角形面积计算">2. 三角形面积计算</h2>
+<p><img src="/images/blog-posts/triangle-area.png" alt="三角形面积计算图示"></p>
+<p>该问题涉及几何计算…</p>
+<h2 id="3-上学迟到问题">3. 上学迟到问题</h2>
+<p><img src="/images/blog-posts/late-for-school.png" alt="上学迟到问题图示"></p>
+<p>这是一个关于时间计算的算法问题…</p>
+<h2 id="4-数字反转">4. 数字反转</h2>
+<p><img src="/images/blog-posts/number-reverse.png" alt="数字反转问题图示"></p>
+<p>该问题涉及数字处理和字符串操作…</p>
+<h2 id="5-小鱼的游泳时间">5. 小鱼的游泳时间</h2>
+<p><img src="/images/blog-posts/fish-swimming-time.png" alt="小鱼的游泳时间图示"></p>
+<p>这个问题涉及时间间隔计算…</p>
+<h2 id="6-小玉买玩具">6. 小玉买玩具</h2>
+<p><img src="/images/blog-posts/xiaoyu-buy-toys.png" alt="小玉买玩具图示"></p>
+<p>这是一个关于购物计算的算法问题…</p>
+<h2 id="7-再分肥宅水">7. 再分肥宅水</h2>
+<p><img src="/images/blog-posts/soda-redistribution.png" alt="再分肥宅水图示"></p>
+<p>该问题涉及分配和计算…</p>
+<h2 id="8-字母转换">8. 字母转换</h2>
+<p><img src="/images/blog-posts/letter-conversion.png" alt="字母转换图示"></p>
+<p>这个问题涉及字符处理和转换…</p>
+]]></content>
+      <tags>
+        <tag>算法</tag>
+        <tag>编程</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初始文件</title>
+    <url>/2025/11/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>MISC三道题解</title>
     <url>/2025/12/04/MISC%E4%B8%89%E9%81%93%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<h1>MISC三道题解</h1>
@@ -41,62 +97,6 @@
         <tag>CTF</tag>
         <tag>MISC</tag>
         <tag>Writeup</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初始文件</title>
-    <url>/2025/11/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的算法题解集合</title>
-    <url>/2025/11/16/%E6%88%91%E7%9A%84%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<h1>算法题解集合</h1>
-<h2 id="题单">题单</h2>
-<p><img src="/images/blog-posts/problem-list.png" alt="题单图示"></p>
-<h2 id="1-苹果采购问题">1. 苹果采购问题</h2>
-<p><img src="/images/blog-posts/apple-purchase.png" alt="苹果采购问题示意图"></p>
-<p>这是一个关于苹果采购的算法问题…</p>
-<h2 id="2-三角形面积计算">2. 三角形面积计算</h2>
-<p><img src="/images/blog-posts/triangle-area.png" alt="三角形面积计算图示"></p>
-<p>该问题涉及几何计算…</p>
-<h2 id="3-上学迟到问题">3. 上学迟到问题</h2>
-<p><img src="/images/blog-posts/late-for-school.png" alt="上学迟到问题图示"></p>
-<p>这是一个关于时间计算的算法问题…</p>
-<h2 id="4-数字反转">4. 数字反转</h2>
-<p><img src="/images/blog-posts/number-reverse.png" alt="数字反转问题图示"></p>
-<p>该问题涉及数字处理和字符串操作…</p>
-<h2 id="5-小鱼的游泳时间">5. 小鱼的游泳时间</h2>
-<p><img src="/images/blog-posts/fish-swimming-time.png" alt="小鱼的游泳时间图示"></p>
-<p>这个问题涉及时间间隔计算…</p>
-<h2 id="6-小玉买玩具">6. 小玉买玩具</h2>
-<p><img src="/images/blog-posts/xiaoyu-buy-toys.png" alt="小玉买玩具图示"></p>
-<p>这是一个关于购物计算的算法问题…</p>
-<h2 id="7-再分肥宅水">7. 再分肥宅水</h2>
-<p><img src="/images/blog-posts/soda-redistribution.png" alt="再分肥宅水图示"></p>
-<p>该问题涉及分配和计算…</p>
-<h2 id="8-字母转换">8. 字母转换</h2>
-<p><img src="/images/blog-posts/letter-conversion.png" alt="字母转换图示"></p>
-<p>这个问题涉及字符处理和转换…</p>
-]]></content>
-      <tags>
-        <tag>算法</tag>
-        <tag>编程</tag>
-        <tag>题解</tag>
       </tags>
   </entry>
 </search>
