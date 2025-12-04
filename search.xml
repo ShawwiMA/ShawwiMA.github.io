@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>初始文件</title>
+    <url>/2025/11/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>MISC三道题解</title>
+    <url>/2025/12/04/MISC%E4%B8%89%E9%81%93%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h1>MISC三道题解</h1>
+<p>以下是近期完成的三道杂项(MISC)题目题解</p>
+<h2 id="题目：stage1">题目：stage1</h2>
+<p><img src="stage1_1.png" alt="题目"></p>
+<p>题目：stage1</p>
+<p><img src="stage1_2.png" alt="压缩文件"></p>
+<p>得到一个压缩包，先解压</p>
+<p><img src="stage1_3.png" alt="图片"></p>
+<p>得到一个图片，先看属性</p>
+<p><img src="stage1_4.png" alt="大小异常"></p>
+<p>大小和占用空间对不上，怀疑藏了东西，用JPHS分离下</p>
+<p>得到flag{3c87fb959e5910b40a04e0491bf230fb}</p>
+<h2 id="题目：misc3">题目：misc3</h2>
+<p><img src="misc3_1.png" alt="题目"></p>
+<p>题目：misc3</p>
+<p>看看自己下面指键盘，画出av，得到flag{av}</p>
+<h2 id="题目：misc30">题目：misc30</h2>
+<p><img src="misc30_1.png" alt="题目"></p>
+<p>题目：misc30</p>
+<p><img src="misc30_2.png" alt="压缩文件"></p>
+<p>下完得到一个压缩文件</p>
+<p>解压失败</p>
+<p>爆破无果用ZipCenOp.jar去未加密，成功解压</p>
+<p>得到一个aihe.mp3</p>
+<p>大小和占用空间对不上，用foremost分离出一个图片</p>
+<p><img src="misc30_3.png" alt="图片"></p>
+<p>大小和占用空间依旧对不上</p>
+<p>看起来像是缺少下半部分，用010修改图片高度</p>
+<p>得到猪圈密码</p>
+<p><img src="misc30_4.jpg" alt="猪圈密码"></p>
+<p>参考猪圈密码对照表得到well done</p>
+<p>得到flag{well done}</p>
+<p><img src="misc30_5.jpg" alt="猪圈密码对照表"></p>
+]]></content>
+      <tags>
+        <tag>CTF</tag>
+        <tag>MISC</tag>
+        <tag>Writeup</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的算法题解集合</title>
     <url>/2025/11/16/%E6%88%91%E7%9A%84%E7%AE%97%E6%B3%95%E9%A2%98%E8%A7%A3%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[<h1>算法题解集合</h1>
@@ -36,24 +98,5 @@
         <tag>编程</tag>
         <tag>题解</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>初始文件</title>
-    <url>/2025/11/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
